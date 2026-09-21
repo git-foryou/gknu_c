@@ -1,2 +1,3 @@
 # gknu_c
 ## [경국대학교 1학년 2학기 프로그래밍 심화 C언어](www.naver.com)
+'printf("Hello World")

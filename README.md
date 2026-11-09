@@ -84,7 +84,7 @@
 
 ## 11/16 1학년 2학기 퀴즈시험 코드
 
-		-  #include <stdio.h>
+		#include <stdio.h>
 		
 		int main() {
 		    int s = 0;
@@ -94,5 +94,17 @@
 		    printf("%d\n", s);
 		    
 		    return 0;
+		}
+
+
+		#include <stdio.h>
+		#include <malloc.h>
+		
+		void main(){
+		    int* p;
+		    p = malloc(sizeof(int) * 3);
+		    p[0] = 2;          p[1] = 3;          p[2] = 5;
+		    printf("%d",p[0]+p[1]+p[2]);
+		    free(p);
 		}
 

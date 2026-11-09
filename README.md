@@ -81,3 +81,18 @@
 		}
 
 
+
+## 11/16 1학년 2학기 퀴즈시험 코드
+
+		-  #include <stdio.h>
+		
+		int main() {
+		    int s = 0;
+		    for (int i = 1; i <= 10; i++){
+		        s = s + i;
+		    }
+		    printf("%d\n", s);
+		    
+		    return 0;
+		}
+

@@ -109,3 +109,16 @@
 		    free(p);
 		}
 
+----------------------------------------------------
+
+		#include <stdio.h>
+		
+		int add(int a, int b) {
+			return a + b;
+		}
+		int main() {
+			int a = 2, b = 3;
+			int c = add(a, b);
+			printf("%d\n", c);
+			return 0;
+		}
